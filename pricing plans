@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>pricing plans></title>
+<style>
+.head{
+   text-align:center;
+}
+.card{
+  display: flex;   
+  text-align: center;
+  gap: 20px;
+  margin-top: 40px;
+  position:center;
+  justify-content:center;
+ 
+  }
+
+.box{
+    width: 250px;
+    height: 400px;
+    background-color:white;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    padding: 20px;
+    text-align: center;
+    font-size: 22px;
+   
+}
+.standard{
+     border:2px solid blue;
+}
+.tags{
+     color:blue;
+     font-size:50px;
+}
+.tags span{
+      color:black;
+      font-size:25px;
+}
+.button{
+background-color:blue;
+color:white;
+font-size:15px;
+width:120px;
+height:30px;
+border-radius:5px;
+
+}
+
+</style>
+</head>
+<body>
+<div class="head">
+<h1>OUR PRICING PLANS</h1>
+</div>
+
+<div class="card">
+<div class="box"><strong>BASIC</strong>
+<p class="tags">$9<span>/month</span></p>
+<ul>
+<li>5 Projects</li>
+<li>Email Support</li>
+<li>1 GB Storage</li>
+</ul>
+<button class="button">choose</button>
+</div>
+
+<div class="box standard"><strong>STANDARD</strong>
+
+
+<P class="tags">$19<span>/month</span></p>
+<ul>
+<li>15 Projects</li>
+<li> Priority mail Support</li>
+<li>10 GB Storage</li>
+</ul>
+<button class="button">choose</button>
+</div>
+<div class="box"><strong>PREMIUM</strong>
+<p class="tags">$29<span>/month</span></p>
+<ul>
+<li>Unlimited Projects</li>
+<li>24/7 Support</li>
+<li>100 GB Storage</li>
+</ul>
+<button class="button">choose</button>
+</div>
+</div>
+</body>
+</html>
+
